@@ -58,8 +58,12 @@ register_analysis_tools(app, active_data_source)
 register_helpers_tools(app)
 
 # --- Main Execution Block ---
-if __name__ == "__main__":
+def main():
     logger.info(
         f"Starting A-Share MCP Server via stdio... Today is {current_date}")
     # Run the server using stdio transport, suitable for MCP Hosts like Claude Desktop
     app.run(transport='stdio')
+
+
+if __name__ == "__main__":
+    main()
