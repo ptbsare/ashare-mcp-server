@@ -116,7 +116,7 @@ wheels = [
 
 [[package]]
 name = "baostock"
-version = "0.8.9"
+version = "0.9.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pandas" },
