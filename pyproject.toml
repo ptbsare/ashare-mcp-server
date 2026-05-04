@@ -49,3 +49,9 @@ a-share-mcp = "mcp_server:main"
 dev-dependencies = [
     "pytest>=8.3.0",
 ]
+
+[tool.setuptools]
+py-modules = ["mcp_server"]
+
+[tool.setuptools.packages.find]
+include = ["src*"]
