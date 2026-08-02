@@ -71,7 +71,7 @@ requires-dist = [
     { name = "httpx-sse", specifier = ">=0.4.0" },
     { name = "idna", specifier = ">=3.10" },
     { name = "markdown-it-py", specifier = ">=3.0.0" },
-    { name = "mcp", extras = ["cli"], specifier = ">=1.2.0" },
+    { name = "mcp", extras = ["cli"], specifier = ">=1.2.0,<2.0.0" },
     { name = "mdurl", specifier = ">=0.1.2" },
     { name = "numpy", specifier = ">=2.2.5" },
     { name = "pandas", specifier = ">=2.2.3" },
